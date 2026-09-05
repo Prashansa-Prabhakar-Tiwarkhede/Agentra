@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AURA Commerce
 
 **Commerce built for the age of AI buyers.**
@@ -225,3 +226,6 @@ must be **TEST MODE** (`rzp_test_...`) — this build never processes real payme
 - Merchant-configurable upsell/cross-sell rules UI (currently seed-script or manual DB only)
 - Role-based team access for merchant accounts
 - Multi-image product galleries (currently one image per product)
+=======
+# Agentra
+>>>>>>> 07f0d5929aa80710594d7ed28a63ef3994a1e07b

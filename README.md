@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # AURA Commerce
 
 **Commerce built for the age of AI buyers.**

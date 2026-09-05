@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ::selection {
+    background: rgba(232, 180, 84, 0.3);
+  }
+  :focus-visible {
+    outline: 2px solid #e8b454;
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .ledger-rule {
+    border-top: 1px solid rgba(232, 180, 84, 0.18);
+  }
+  .pill {
+    @apply inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-mono tracking-wide;
+  }
+  .pill-allowed {
+    @apply pill bg-success/10 text-success border border-success/30;
+  }
+  .pill-blocked {
+    @apply pill bg-danger/10 text-danger border border-danger/30;
+  }
+  .pill-approval {
+    @apply pill bg-amber/10 text-amber border border-amber/30;
+  }
+  .card {
+    @apply bg-panel border border-border rounded-2xl;
+  }
+  .btn-primary {
+    @apply bg-amber text-base font-semibold px-5 py-2.5 rounded-full hover:bg-amber-glow transition-colors duration-200;
+  }
+  .btn-ghost {
+    @apply border border-border text-ink px-5 py-2.5 rounded-full hover:border-amber-dim transition-colors duration-200;
+  }
+  .input {
+    @apply w-full bg-panel2 border border-border rounded-lg px-3.5 py-2.5 text-sm outline-none focus:border-amber-dim transition-colors placeholder:text-muted/60;
+  }
+}
